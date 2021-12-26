@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: javawebappsvc
+  labels:
+    name: javawebapp 
+spec:
+  type: ClusterIP
+  selector:
+    name: javawebapp 
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8080

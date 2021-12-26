@@ -67,9 +67,9 @@ $ kubectl get pods --namespace=nginx-ingress
 
  Create a service with the type **LoadBalancer**. Kubernetes will allocate and configure a cloud load balancer for load balancing the Ingress controller pods.
 
-**For AWS, run:**
+**For GCP, run:**
 ```
-$ kubectl apply -f service/loadbalancer-aws-elb.yaml
+$ kubectl apply -f service/loadbalancer-gcp-lb.yaml
 ```
 
 To get the DNS name of the ELB, run:

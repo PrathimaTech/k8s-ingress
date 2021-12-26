@@ -24,8 +24,7 @@ spec:
       - name: springbootcontainer
         image: badri/spring-boot-mongo        
         ports:
-        - name: springboot
-          containerPort: 8080
+        - containerPort: 8080
 ---        
 apiVersion: v1
 kind: Service

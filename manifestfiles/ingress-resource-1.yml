@@ -5,13 +5,13 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: springapp.example.com
+  - host: www.springapp.example.com
     http:
       paths:
       - backend:
           serviceName: springbootsvc
           servicePort: 80
-  - host: javawebapp.example.com
+  - host: www.javawebapp.example.com
     http:
       paths:
       - backend:

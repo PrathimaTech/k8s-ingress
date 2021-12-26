@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: springbootcontainer
-        image: badri/spring-boot-mongo        
+        image: badri/spring-boot-mango        
         ports:
         - containerPort: 8080
 ---        
